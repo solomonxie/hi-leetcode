@@ -13,3 +13,7 @@ Reordering data — either applying a library sort thoughtfully, or implementing
 - Merge sort's merge step is the building block for "count inversions" and "merge K sorted" problems.
 - Quickselect (the partition step of quicksort) finds the Kth smallest/largest in average O(n) — faster than a full sort when only one order statistic is needed.
 - Interval problems almost always start with `intervals.sort(key=lambda x: x[0])`.
+
+## Standalone technique intros
+
+Alongside LeetCode problems, this folder also holds one file per sorting/ordering technique, each a self-contained, runnable intro with explanatory comments — e.g. `hello_topological_sorting.py`.
