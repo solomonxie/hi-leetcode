@@ -13,3 +13,5 @@ Each top-level folder is one pattern. See [PLAN.md](PLAN.md) for the target prob
 e.g. `two-pointers/medium_11_container-with-most-water/README.md`
 
 Each problem's `README.md` includes a clear description, example input/output, and a diagram when one helps.
+
+A file directly in a category folder named `hello_<xxx>.py` is a standalone, runnable introduction to a sub-topic, sub-pattern, or specific technique within that category (e.g. `sorting/hello_topological_sorting.py`) — not a solved LeetCode problem.
