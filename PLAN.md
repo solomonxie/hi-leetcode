@@ -19,35 +19,53 @@ Target problems to fill in per pattern, roughly ordered easy → hard. Numbers a
 - [ ] hard_4_median-of-two-sorted-arrays
 
 ## bfs-dfs
+- [x] medium_31_next-permutation
+- [x] medium_39_combination-sum
+- [x] medium_98_validate-binary-search-tree
+- [x] easy_100_same-tree
+- [x] easy_104_maximum-depth-of-binary-tree
+- [x] medium_105_construct-binary-tree-from-preorder-and-inorder-traversal
+- [x] easy_108_convert-sorted-array-to-binary-search-tree
+- [x] easy_110_balanced-binary-tree
 - [ ] medium_102_binary-tree-level-order-traversal
 - [ ] medium_130_surrounded-regions
 - [ ] medium_133_clone-graph
-- [ ] medium_200_number-of-islands
+- [x] medium_200_number-of-islands
+- [x] easy_226_invert-binary-tree
+- [x] medium_230_kth-smallest-element-in-a-bst
+- [x] medium_417_pacific-atlantic-water-flow
+- [x] medium_556_next-greater-element-iii
+- [x] easy_572_subtree-of-another-tree
+- [x] medium_743_network-delay-time
 - [ ] medium_994_rotting-oranges
 - [ ] hard_127_word-ladder
 
 ## backtracking
 - [ ] medium_22_generate-parentheses
-- [ ] medium_39_combination-sum
 - [ ] medium_46_permutations
 - [ ] medium_78_subsets
 - [ ] medium_79_word-search
 - [ ] hard_51_n-queens
 
 ## dp
-- [ ] easy_70_climbing-stairs
-- [ ] medium_198_house-robber
+- [x] easy_70_climbing-stairs
+- [x] easy_509_fibonacci-number
+- [x] easy_746_min-cost-climbing-stairs
+- [x] medium_62_unique-paths
+- [x] medium_120_triangle
+- [x] medium_198_house-robber
+- [x] medium_518_coin-change-ii
+- [x] medium_3418_maximum-amount-of-money-robot-can-earn
+- [x] hard_72_edit-distance
 - [ ] medium_300_longest-increasing-subsequence
 - [ ] medium_322_coin-change
 - [ ] medium_416_partition-equal-subset-sum
 - [ ] medium_1143_longest-common-subsequence
-- [ ] hard_72_edit-distance
 
 ## graphs
 - [ ] medium_207_course-schedule
 - [ ] medium_261_graph-valid-tree
 - [ ] medium_684_redundant-connection
-- [ ] medium_743_network-delay-time
 - [ ] medium_1584_min-cost-to-connect-all-points
 
 ## trie
