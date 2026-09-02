@@ -18,8 +18,21 @@ Target problems to fill in per pattern, roughly ordered easy → hard. Numbers a
 - [ ] medium_875_koko-eating-bananas
 - [ ] hard_4_median-of-two-sorted-arrays
 
-## bfs-dfs
+## array-string
 - [x] medium_31_next-permutation
+- [x] medium_556_next-greater-element-iii
+- [ ] easy_1_two-sum
+- [ ] medium_3_longest-substring-without-repeating-characters
+- [ ] medium_49_group-anagrams
+- [ ] medium_238_product-of-array-except-self
+
+## bfs
+- [ ] medium_102_binary-tree-level-order-traversal
+- [ ] medium_133_clone-graph
+- [ ] medium_994_rotting-oranges
+- [ ] hard_127_word-ladder
+
+## dfs
 - [x] medium_39_combination-sum
 - [x] medium_98_validate-binary-search-tree
 - [x] easy_100_same-tree
@@ -27,18 +40,12 @@ Target problems to fill in per pattern, roughly ordered easy → hard. Numbers a
 - [x] medium_105_construct-binary-tree-from-preorder-and-inorder-traversal
 - [x] easy_108_convert-sorted-array-to-binary-search-tree
 - [x] easy_110_balanced-binary-tree
-- [ ] medium_102_binary-tree-level-order-traversal
-- [ ] medium_130_surrounded-regions
-- [ ] medium_133_clone-graph
 - [x] medium_200_number-of-islands
 - [x] easy_226_invert-binary-tree
 - [x] medium_230_kth-smallest-element-in-a-bst
 - [x] medium_417_pacific-atlantic-water-flow
-- [x] medium_556_next-greater-element-iii
 - [x] easy_572_subtree-of-another-tree
-- [x] medium_743_network-delay-time
-- [ ] medium_994_rotting-oranges
-- [ ] hard_127_word-ladder
+- [ ] medium_130_surrounded-regions
 
 ## backtracking
 - [ ] medium_22_generate-parentheses
@@ -63,6 +70,7 @@ Target problems to fill in per pattern, roughly ordered easy → hard. Numbers a
 - [ ] medium_1143_longest-common-subsequence
 
 ## graphs
+- [x] medium_743_network-delay-time
 - [ ] medium_207_course-schedule
 - [ ] medium_261_graph-valid-tree
 - [ ] medium_684_redundant-connection
