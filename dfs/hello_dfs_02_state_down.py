@@ -12,11 +12,11 @@ each recursive call narrows/updates it before passing it to its children.
 The mental model: "what does this node need to know about its ancestors
 to check itself?" — then thread that as arguments, not as a return value.
 
-Speedrun (dfs/problems/):
-  - medium_98_validate-binary-search-tree.py
+Speedrun:
+  - dfs/problems/medium_98_validate-binary-search-tree.py
       dfs(node, low, high) — each child's valid range narrows from the
       parent's, and the node itself is checked against it.
-  - easy_108_convert-sorted-array-to-binary-search-tree.py
+  - dfs/problems/easy_108_convert-sorted-array-to-binary-search-tree.py
       dfs(lo, hi) — the "state" is which slice of the array this call
       owns; children get narrower slices.
 """

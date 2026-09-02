@@ -9,11 +9,11 @@ The mental model: "if I already had the answer for each child, how would
 I combine them into the answer for this node?" Then the base case (no
 node) is whatever value makes that combination correct for a leaf.
 
-Speedrun after reading this (in dfs/problems/, already solved — trace
-by hand, don't rewrite them):
-  - easy_104_maximum-depth-of-binary-tree.py   dfs(node) -> depth
-  - easy_100_same-tree.py                      dfs(p, q) -> bool
-  - easy_226_invert-binary-tree.py             dfs(node) -> new subtree root
+Speedrun after reading this (already solved — trace by hand, don't
+rewrite them):
+  - dfs/problems/easy_104_maximum-depth-of-binary-tree.py   dfs(node) -> depth
+  - dfs/problems/easy_100_same-tree.py                      dfs(p, q) -> bool
+  - dfs/problems/easy_226_invert-binary-tree.py             dfs(node) -> new subtree root
 """
 from typing import Optional
 
