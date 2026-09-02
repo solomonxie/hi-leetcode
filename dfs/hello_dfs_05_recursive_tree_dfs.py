@@ -20,6 +20,15 @@ Speedrun:
       A DFS *nested inside* a DFS: the outer traversal visits every
       node, and at each one calls is_same_tree (below) to compare
       structures.
+  - dfs/problems/easy_144_binary-tree-preorder-traversal.py
+  - dfs/problems/easy_94_binary-tree-inorder-traversal.py
+  - dfs/problems/easy_145_binary-tree-postorder-traversal.py
+  - dfs/problems/easy_100_same-tree.py
+  - dfs/problems/easy_226_invert-binary-tree.py
+  - dfs/problems/easy_104_maximum-depth-of-binary-tree.py
+  - dfs/problems/easy_110_balanced-binary-tree.py
+  - dfs/problems/medium_230_kth-smallest-element-in-a-bst.py
+  - dfs/problems/easy_108_convert-sorted-array-to-binary-search-tree.py
 """
 from typing import Optional
 

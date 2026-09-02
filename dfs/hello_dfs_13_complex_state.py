@@ -30,6 +30,14 @@ Speedrun:
   - dfs/problems/medium_105_construct-binary-tree-from-preorder-and-inorder-traversal.py
       State = index ranges into preorder/inorder; each call builds one
       subtree root out of its children's built subtrees.
+  - dfs/problems/easy_110_balanced-binary-tree.py
+  - dfs/problems/easy_108_convert-sorted-array-to-binary-search-tree.py
+  - dfs/problems/medium_98_validate-binary-search-tree.py
+  - dfs/problems/medium_129_sum-root-to-leaf-numbers.py
+  - dfs/problems/medium_106_construct-binary-tree-from-inorder-and-postorder-traversal.py
+  - dfs/problems/medium_654_maximum-binary-tree.py
+  - dfs/problems/hard_124_binary-tree-maximum-path-sum.py
+  - dfs/problems/medium_337_house-robber-iii.py
 """
 from typing import List, Optional, Tuple
 

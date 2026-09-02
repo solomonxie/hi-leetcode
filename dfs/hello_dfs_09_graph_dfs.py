@@ -17,6 +17,15 @@ relationship explicit and arbitrary instead of implied by geometry.
 Speedrun:
   - dfs/problems/medium_323_number-of-connected-components-in-an-undirected-graph.py
       Same shape as below, run directly on LeetCode's exact signature.
+  - dfs/problems/medium_133_clone-graph.py
+  - dfs/problems/medium_207_course-schedule.py
+  - dfs/problems/medium_547_number-of-provinces.py
+  - dfs/problems/easy_1971_find-if-path-exists-in-graph.py
+  - dfs/problems/medium_200_number-of-islands.py
+  - dfs/problems/medium_230_kth-smallest-element-in-a-bst.py
+  - dfs/problems/medium_417_pacific-atlantic-water-flow.py
+  - dfs/problems/medium_1448_count-good-nodes-in-binary-tree.py
+  - dfs/problems/medium_130_surrounded-regions.py
 """
 from typing import List
 

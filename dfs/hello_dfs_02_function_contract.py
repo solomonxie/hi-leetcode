@@ -14,6 +14,18 @@ just check that your one line of extra work is correct given that.
 The mental model: "if the contract holds for a smaller input, does my
 one step of extra work make it hold for this input too?" That question,
 answered once, is a correctness proof for every call size at once.
+
+Speedrun (write each one's contract in a sentence before reading the body):
+  - dfs/problems/easy_509_fibonacci-number.py
+  - dfs/problems/easy_70_climbing-stairs.py
+  - dfs/problems/easy_326_power-of-three.py
+  - dfs/problems/easy_206_reverse-linked-list.py
+  - dfs/problems/easy_21_merge-two-sorted-lists.py
+  - dfs/problems/medium_50_powx-n.py
+  - dfs/problems/easy_100_same-tree.py
+  - dfs/problems/easy_104_maximum-depth-of-binary-tree.py
+  - dfs/problems/easy_226_invert-binary-tree.py
+  - dfs/problems/easy_572_subtree-of-another-tree.py
 """
 from typing import List
 

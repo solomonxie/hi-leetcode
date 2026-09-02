@@ -13,6 +13,18 @@ a plain variable, like this counter, does).
 The mental model: "is this state really per-branch (step 3/6), or is it
 one running total the whole traversal shares?" Counting and
 visited-tracking are almost always shared state, not per-branch state.
+
+Speedrun (find the shared object and where it's mutated):
+  - dfs/problems/medium_200_number-of-islands.py
+  - dfs/problems/medium_230_kth-smallest-element-in-a-bst.py
+  - dfs/problems/medium_417_pacific-atlantic-water-flow.py
+  - dfs/problems/medium_323_number-of-connected-components-in-an-undirected-graph.py
+  - dfs/problems/medium_1448_count-good-nodes-in-binary-tree.py
+  - dfs/problems/medium_133_clone-graph.py
+  - dfs/problems/medium_207_course-schedule.py
+  - dfs/problems/medium_547_number-of-provinces.py
+  - dfs/problems/easy_1971_find-if-path-exists-in-graph.py
+  - dfs/problems/medium_130_surrounded-regions.py
 """
 from typing import Optional
 

@@ -10,6 +10,18 @@ The mental model: each call is a fresh stack frame with its own local
 variables. `factorial(4)` doesn't compute anything itself — it asks
 `factorial(3)` for an answer, multiplies it by 4, and returns that up.
 The call stack *is* the mechanism; nothing here is DFS-specific yet.
+
+Speedrun (plain recursion, no tree/graph needed yet — trace by hand):
+  - dfs/problems/easy_509_fibonacci-number.py
+  - dfs/problems/easy_70_climbing-stairs.py
+  - dfs/problems/easy_326_power-of-three.py
+  - dfs/problems/easy_344_reverse-string.py
+  - dfs/problems/easy_206_reverse-linked-list.py
+  - dfs/problems/easy_21_merge-two-sorted-lists.py
+  - dfs/problems/medium_50_powx-n.py
+  - dfs/problems/medium_24_swap-nodes-in-pairs.py
+  - dfs/problems/easy_203_remove-linked-list-elements.py
+  - dfs/problems/easy_704_binary-search.py
 """
 
 
