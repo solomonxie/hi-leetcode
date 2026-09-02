@@ -1,18 +1,19 @@
 """
-Run: python3 hello_dfs_03_combination_backtrack.py
+Run: python3 hello_dfs_10_backtracking.py
 
-Recap: step 1 returned answers built from children; step 2 pushed
-context (bounds, ranges) down through arguments.
+Recap: step 6 built each recursive call's state as an immutable copy
+(`path + ch`); step 9 gave DFS a visited set that's never undone.
 
-Step 3: combination of state — DFS over a *decision tree* instead of a
-data structure. At each call you choose one option, recurse on the rest
-of the problem, then undo the choice before trying the next option. The
-"state" is the partial solution built so far (a `path` list), mutated in
-place: append before recursing, pop right after. This is backtracking —
-DFS is the traversal, backtracking is the choose/un-choose discipline.
+Step 10: backtracking — DFS over a *decision tree*, where the state is
+one mutable `path`, shared and mutated in place instead of copied: choose
+(append), recurse, un-choose (pop) before trying the next option. That
+append-recurse-pop triple is backtracking; DFS is just the traversal it
+runs on. It reaches the same results as step 6's copy-per-call approach,
+but reuses one list instead of allocating a new one per call.
 
 The mental model: "what are my choices right here, and after each one,
-what smaller version of the same problem is left?"
+what smaller version of the same problem is left?" Then undo the choice
+so the next option starts from a clean `path`.
 
 Speedrun:
   - dfs/problems/medium_39_combination-sum.py
@@ -25,7 +26,7 @@ from typing import List
 
 def subsets(nums: List[int]) -> List[List[int]]:
     result = []
-    path = []
+    path = []  # one shared, mutated list — not a fresh copy per call
 
     def backtrack(start):
         result.append(path[:])  # every path so far is a valid subset

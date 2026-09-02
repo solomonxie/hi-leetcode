@@ -1,16 +1,18 @@
 """
-Run: python3 hello_dfs_02_state_down.py
+Run: python3 hello_dfs_12_path_state.py
 
-Recap of step 1: dfs(node) -> answer, built from the children's answers.
-That's enough when a node's correctness only depends on what's below it.
+Recap: step 11 mutated the input and undid it on the way back up.
 
-Step 2: state passed down — some problems need context from *above*:
+Step 12: path state — some problems need context from *above* instead:
 what the parent already decided, or bounds accumulated along the path
-from the root. That context becomes extra parameters on the call, and
-each recursive call narrows/updates it before passing it to its children.
+from the root. Unlike step 11's mutate-and-undo, nothing here is undone
+— each call just passes a narrower version of the state forward as a
+plain argument, and it's naturally scoped to that call's own subtree
+(no shared object, no restore needed).
 
 The mental model: "what does this node need to know about its ancestors
-to check itself?" — then thread that as arguments, not as a return value.
+to check itself?" — then thread that as arguments, not as a return value
+or a shared/mutated object.
 
 Speedrun:
   - dfs/problems/medium_98_validate-binary-search-tree.py
