@@ -14,8 +14,8 @@ two things at once, or is it cleaner as two separate traversals with
 simple state, combined at the end?" Usually the second is easier to reason
 about correctly.
 
-Speedrun (dfs/problems/):
-  - medium_417_pacific-atlantic-water-flow.py
+Speedrun:
+  - dfs/problems/medium_417_pacific-atlantic-water-flow.py
       Two independent DFS sweeps — one seeded from the Pacific-facing
       border, one from the Atlantic-facing border — each with its own
       visited set, intersected at the end.

@@ -19,14 +19,14 @@ instead of a separate top-down helper.
 The mental model: "what narrower slice does each child own, and what do
 I build once I have their two built pieces back?"
 
-Speedrun (dfs/problems/):
-  - medium_105_construct-binary-tree-from-preorder-and-inorder-traversal.py
+Speedrun:
+  - dfs/problems/medium_105_construct-binary-tree-from-preorder-and-inorder-traversal.py
       State = index ranges into `preorder`/`inorder`; each call builds
       one subtree root out of its children's built subtrees.
-  - easy_110_balanced-binary-tree.py
+  - dfs/problems/easy_110_balanced-binary-tree.py
       Return value packs two facts at once (height, and whether the
       subtree is balanced) to avoid a second full traversal.
-  - easy_572_subtree-of-another-tree.py
+  - dfs/problems/easy_572_subtree-of-another-tree.py
       A DFS *nested inside* a DFS: the outer traversal visits every
       node, and at each one runs a second, independent DFS (step 1's
       same-tree check) to compare structures.

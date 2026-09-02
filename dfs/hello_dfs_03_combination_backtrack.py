@@ -14,8 +14,8 @@ DFS is the traversal, backtracking is the choose/un-choose discipline.
 The mental model: "what are my choices right here, and after each one,
 what smaller version of the same problem is left?"
 
-Speedrun (dfs/problems/):
-  - medium_39_combination-sum.py
+Speedrun:
+  - dfs/problems/medium_39_combination-sum.py
       Watch exactly where `path.append(...)` / `backtrack(...)` /
       `path.pop()` sit relative to each other — that triple is the whole
       pattern.

@@ -15,11 +15,11 @@ The mental model: "is this state really per-branch (step 2/3), or is it
 one running total the whole traversal shares?" Visited-tracking and
 counting are almost always shared state, not per-branch state.
 
-Speedrun (dfs/problems/):
-  - medium_200_number-of-islands.py
+Speedrun:
+  - dfs/problems/medium_200_number-of-islands.py
       The grid itself is the shared state — dfs() marks a cell visited
       by flipping it to "0" in place, so no separate visited set is needed.
-  - medium_230_kth-smallest-element-in-a-bst.py
+  - dfs/problems/medium_230_kth-smallest-element-in-a-bst.py
       A shared counter (`nonlocal`) ticks down across recursive calls,
       and the traversal exits early the moment it hits zero.
 """
