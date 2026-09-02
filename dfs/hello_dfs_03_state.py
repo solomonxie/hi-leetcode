@@ -12,6 +12,18 @@ transform in any way from parent to child, not just n -> n-1.
 The mental model: before writing a recursive function, ask "what does
 each call need to know that the previous call didn't?" — that answer is
 the state, and it becomes the extra parameters.
+
+Speedrun (name what varies between calls before reading the body):
+  - dfs/problems/easy_704_binary-search.py
+  - dfs/problems/medium_24_swap-nodes-in-pairs.py
+  - dfs/problems/easy_203_remove-linked-list-elements.py
+  - dfs/problems/easy_344_reverse-string.py
+  - dfs/problems/easy_100_same-tree.py
+  - dfs/problems/easy_104_maximum-depth-of-binary-tree.py
+  - dfs/problems/easy_226_invert-binary-tree.py
+  - dfs/problems/easy_108_convert-sorted-array-to-binary-search-tree.py
+  - dfs/problems/medium_98_validate-binary-search-tree.py
+  - dfs/problems/easy_110_balanced-binary-tree.py
 """
 
 

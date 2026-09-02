@@ -20,6 +20,15 @@ Speedrun:
       Watch exactly where `path.append(...)` / `backtrack(...)` /
       `path.pop()` sit relative to each other — that triple is the whole
       pattern.
+  - dfs/problems/medium_17_letter-combinations-of-a-phone-number.py
+  - dfs/problems/medium_46_permutations.py
+  - dfs/problems/medium_78_subsets.py
+  - dfs/problems/medium_22_generate-parentheses.py
+  - dfs/problems/medium_90_subsets-ii.py
+  - dfs/problems/medium_47_permutations-ii.py
+  - dfs/problems/medium_131_palindrome-partitioning.py
+  - dfs/problems/hard_51_n-queens.py
+  - dfs/problems/medium_79_word-search.py
 """
 from typing import List
 

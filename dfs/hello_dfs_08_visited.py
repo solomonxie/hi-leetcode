@@ -19,6 +19,15 @@ Speedrun:
   - dfs/problems/medium_200_number-of-islands.py
       A different visited technique: instead of a separate set, it
       mutates the grid itself ("1" -> "0") as the visited marker.
+  - dfs/problems/medium_417_pacific-atlantic-water-flow.py
+  - dfs/problems/medium_79_word-search.py
+  - dfs/problems/medium_130_surrounded-regions.py
+  - dfs/problems/easy_1971_find-if-path-exists-in-graph.py
+  - dfs/problems/medium_547_number-of-provinces.py
+  - dfs/problems/medium_323_number-of-connected-components-in-an-undirected-graph.py
+  - dfs/problems/medium_133_clone-graph.py
+  - dfs/problems/medium_1448_count-good-nodes-in-binary-tree.py
+  - dfs/problems/medium_207_course-schedule.py
 """
 from typing import List, Set, Tuple
 

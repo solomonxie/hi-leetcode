@@ -16,6 +16,15 @@ state — a for-loop of recursive calls instead of a fixed left/right pair.
 Speedrun:
   - dfs/problems/medium_17_letter-combinations-of-a-phone-number.py
       Same shape as below, run directly on LeetCode's exact signature.
+  - dfs/problems/medium_39_combination-sum.py
+  - dfs/problems/medium_79_word-search.py
+  - dfs/problems/medium_46_permutations.py
+  - dfs/problems/medium_78_subsets.py
+  - dfs/problems/medium_22_generate-parentheses.py
+  - dfs/problems/medium_90_subsets-ii.py
+  - dfs/problems/medium_47_permutations-ii.py
+  - dfs/problems/medium_131_palindrome-partitioning.py
+  - dfs/problems/hard_51_n-queens.py
 """
 from typing import List
 
